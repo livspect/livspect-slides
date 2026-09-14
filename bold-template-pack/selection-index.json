@@ -2,7 +2,7 @@
   "schema_version": 1,
   "pack_name": "Beautiful HTML Templates - Bold Design Pack",
   "source_repo": "zarazhangrui/beautiful-html-templates",
-  "template_count": 34,
+  "template_count": 35,
   "usage": {
     "selection": "Read this compact index first to shortlist bold templates from metadata.",
     "previews": "For title-slide previews, read only the preview_md files for the shortlisted bold candidates.",
@@ -17,6 +17,30 @@
     "mobile_behavior": "preserve 16:9 stage; letterbox or pillarbox instead of reflowing slide content"
   },
   "templates": [
+    {
+      "slug": "livspect",
+      "name": "Livspect (Hairline Editorial)",
+      "tagline": "Paper-white corporate editorial with hairline rules, mono index numerals, and a single orange point of accent.",
+      "mood": [
+        "restrained",
+        "structural",
+        "corporate",
+        "precise"
+      ],
+      "tone": [
+        "professional",
+        "quiet",
+        "engineering-adjacent",
+        "trustworthy"
+      ],
+      "formality": "high",
+      "density": "medium",
+      "scheme": "light",
+      "best_for": "Japanese-first business documents: client proposals, service overviews, pricing and comparison decks, project reports, consulting deliverables, internal strategy reviews. Built for mixed Japanese/English content and for any deck that has to carry the Livspect brand.",
+      "avoid_for": "Decks that need visual energy, color-led storytelling, illustration, or playfulness. Also a poor fit for anything that should not read as Livspect-branded, since the wordmark and the orange accent are structural to the system.",
+      "preview_md": "bold-template-pack/templates/livspect/preview.md",
+      "design_md": "bold-template-pack/templates/livspect/design.md"
+    },
     {
       "slug": "8-bit-orbit",
       "name": "8-Bit Orbit",

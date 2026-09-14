@@ -1,18 +1,26 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "frontend-slides",
-  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files.",
+  "name": "livspect-slides",
+  "description": "Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Livspect fork, with the Livspect corporate design language as a built-in template.",
   "owner": {
-    "name": "zarazhangrui",
-    "url": "https://github.com/zarazhangrui"
+    "name": "Livspect",
+    "url": "https://github.com/livspect"
   },
   "plugins": [
     {
       "name": "frontend-slides",
-      "description": "Zero-dependency HTML presentation generator with safe presets, bold template-library styles, PPT conversion, and anti-AI-slop design philosophy.",
+      "description": "Zero-dependency HTML presentation generator with safe presets, bold template-library styles, PPT conversion, anti-AI-slop design philosophy, and the Livspect corporate design system.",
       "source": "./plugins/frontend-slides",
       "category": "productivity",
-      "tags": ["presentations", "slides", "html", "design", "powerpoint", "templates"]
+      "tags": [
+        "presentations",
+        "slides",
+        "html",
+        "design",
+        "powerpoint",
+        "templates",
+        "livspect"
+      ]
     }
   ]
 }

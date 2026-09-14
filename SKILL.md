@@ -15,6 +15,18 @@ Create zero-dependency, animation-rich HTML presentations that run entirely in t
 4. **Progressive Disclosure** — Read lightweight style indexes first. For bold templates, use small preview cards for style previews and load the full `design.md` only after the user picks that template.
 5. **Fixed 16:9 Stage (NON-NEGOTIABLE)** — Every deck uses a 1920×1080 slide canvas scaled as a whole to the viewport. Slides must stay 16:9 on every screen, including phones. Do not reflow slide content to fit the device.
 
+## Livspect House Style
+
+This fork ships one additional template, `livspect` (Livspect / Hairline Editorial), which encodes the Livspect corporate design language: paper white, deep ink, 1px hairline structure, mono index numerals, and Livspect orange used only as a point.
+
+Apply it as follows:
+
+- **Anything that goes to a client, a partner, or the public under the Livspect name** — proposals, service overviews, pricing decks, project reports, consulting deliverables — uses the `livspect` template. Do not run the three-preview discovery flow for these; read `bold-template-pack/templates/livspect/design.md` and generate directly. Confirm the choice in one line rather than asking.
+- **Internal notes, workshops, talks, and anything not carrying the brand** use the normal discovery flow. Offer `livspect` as one of the three previews when the register is formal.
+- When the user explicitly names another template or asks to explore, honor that. The house style is a default, not a lock.
+
+Every deck built on the `livspect` template carries the Livspect wordmark in its chrome band. Render it as the HTML lockup documented in that template's design doc, not as an image file.
+
 ## Design Aesthetics
 
 You tend to converge toward generic, "on distribution" outputs. In frontend design, this creates what users call the "AI slop" aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.

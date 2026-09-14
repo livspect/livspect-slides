@@ -1,4 +1,26 @@
-# Frontend Slides
+# Livspect Slides
+
+> Livspect fork of [zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides) (MIT).
+> Everything upstream still works; this fork adds the Livspect corporate design language as a template.
+
+## What this fork adds
+
+| | |
+|---|---|
+| `bold-template-pack/templates/livspect/` | The **Livspect (Hairline Editorial)** template — design doc and preview card. Paper white, deep ink, 1px hairline structure, mono index numerals, and Livspect orange used only as a point. |
+| `assets/logo/` | Brand files and logo usage rules. The wordmark is normally built in HTML, not placed as an image. |
+| `examples/livspect-sample.html` | An eight-slide reference deck built on the template. Open it in a browser to see what the system produces. |
+| House style in `SKILL.md` | Client-facing decks default to the `livspect` template instead of going through the three-preview discovery flow. |
+
+The design rules come from the corporate site (`homepage/AGENTS.md` and `homepage/src/styles/theme.css` in the `livspect/livspect` repository), so decks and the website stay in the same visual language.
+
+### Using it
+
+Ask for a deck as usual. For anything that carries the Livspect name, the skill reads `bold-template-pack/templates/livspect/design.md` and generates directly. To explore other looks, say so — the upstream discovery flow is untouched, and the other 34 templates are all still there.
+
+---
+
+# Frontend Slides (upstream)
 
 A coding-agent skill for creating stunning HTML presentations — from scratch or by converting PowerPoint files. It is packaged as a Claude Code plugin, and the core `SKILL.md` can also be read by other coding agents with filesystem and shell access.
 
